@@ -1,0 +1,199 @@
+*{
+	font-family: helvetica, arial, verdana, sans-serif;
+}
+html,
+body{
+/*     background: #e3fdff; */
+     background: linear-gradient(to bottom, #e3fdff 8%, #0d7e8a 100%);
+}
+
+
+.wrap-login100{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5%;
+
+}
+
+
+.container-login100-form-btn{
+	margin-bottom: 50px;
+	display: contents;	
+}
+
+#home-btn a{
+padding:10px;
+padding-right:20px;
+color:black;
+}
+
+.account-item > .content {
+	padding: 15px 11px 0px 11px;
+}
+
+.content a {
+	font-size: 16px
+}
+
+.fa{
+	color: black !important;
+}
+
+.header_licenceCreation{
+ 	display:flex;  
+	justify-content: space-between; 
+	width:100%; 
+	background: #f8f9fa;
+	height:46px !important;
+}
+
+#main-container{
+	margin-top: 170px;
+}
+
+#login-btn{
+
+width:100px !important;
+border-radius:12px;
+background-color:#0d7e8a !important;
+
+}
+
+
+.export-btn{
+	color:white;
+	background-color:#0d7e8a !important;
+}
+
+.logo{
+
+transition: transform .2s;
+
+}
+
+.logo:hover{
+
+transform: scale(1.5);
+
+}
+
+
+
+
+
+.lang-icon{
+	color: #0d7e8a !important;
+	cursor: pointer;
+	/* border: 2px solid #0d7e8a; */
+	/* padding: 0px 5px !important; */
+    /* height: 10px !important; */
+    /* width: 10px !important; */
+	/* border-radius: 50%; */
+}
+
+
+.loader {
+	    border: 16px solid #f3f3f3; /* Light grey */
+	    border-top: 16px solid #0D7E8A; /* Blue */
+	    border-radius: 50%;
+	    width: 120px;
+	    height: 120px;
+	    animation: spin 2s linear infinite;
+	        
+	position: absolute;
+	    z-index: 999;
+	    top: 50%;
+	    left: 50%;
+	}
+
+	@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+}
+
+
+
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+.wait {
+	cursor:wait
+}
+
+
+/* .addLicenseModalInputsDiv{ */
+/* 	display: flex; */
+/* 	justify-content: space-between;  */
+/* } */
+
+.modalCloseButton{
+	color: white;
+    background-color: #0d7e8a;
+    padding: 5px;
+    margin: 4px;
+    min-width: 60px;
+    border-radius: 5px;
+}
+
+.licenseDetailsTable{
+	height: 50vh;
+	display: block;
+	overflow-y: scroll;
+	width: 100%;
+/* 	height: 100%; */
+}
+
+.licenseDetailsTable th {
+	text-align: center;
+	width: 500px;
+}
+.licenseDetailsTable td {
+	width: 500px;
+}
+
+.formAndButton-container {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.left-form {
+    width: 30%;
+}
+
+
+.licenseCreationPageButton {
+	margin-top: 1em;
+	float: right;
+	background:#0d7e8a !important; 
+		width: 12em;
+/* 	width: 100%; */
+}
+
+.button-container {
+	align-self: flex-end;	
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #0d7e8a; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background:#13a9ba;
+	border-radius: 10px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background:#13a9ba;
+}

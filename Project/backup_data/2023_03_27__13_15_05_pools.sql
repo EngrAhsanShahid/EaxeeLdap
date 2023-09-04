@@ -1,0 +1,4 @@
+10	admin	ROLE_ADMIN	EAXee
+11	organization	ROLE_ORGANIZATION_PORTAL	EAXee
+12	architecht	ROLE_USER	EAXee
+13	OrganizationalTestting	ROLE_ORGANIZATION_PORTAL	EAXee

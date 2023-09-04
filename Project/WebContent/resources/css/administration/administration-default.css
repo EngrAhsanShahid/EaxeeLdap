@@ -1,0 +1,489 @@
+* {
+	font-family: helvetica, arial, verdana, sans-serif;
+/* 	background:#e3fdff; */
+}
+
+html, body {
+	/*   height: 100%; */
+	/*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: auto;
+	/*   background:blue; */
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	font-size: 14px;
+	background:#e3fdff !important;
+	/*   width: 100%; */
+}
+
+.center {
+	text-align: center;
+}
+
+.pool {
+	border: 1px solid black;
+}
+
+#poolTables {
+	margin-top: 2vh;
+}
+
+.pool_table_data {
+	/* 		height: 43vh; */
+	height: calc(100vh - 156px - 55px - 350px);
+	display: block;
+	overflow-y: auto;
+	width: 100%;
+}
+
+
+
+.pool_table_data th {
+	width: 500px;
+}
+.pool_table_data td {
+	width: 500px;
+}
+#licenseSelect, #userSelect{
+	overflow-y: auto;
+}
+
+.poolSubmitButtons {
+	margin-top: 1em;
+	float: right;
+	background:#0d7e8a !important; 
+	/* 	width: 8em; */
+	width: 100%;
+}
+.architectureDropdownButton {
+	margin-top: 1em;
+/* 	float: right; */
+	width: 100%;
+}
+.repositoryManagementSubmitButtons{
+	margin-top: 1em;
+	margin-right:1em;
+	float: right;
+	background:#0d7e8a !important; 
+	margin-right:10px;
+	width: 8em;
+	
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.deleteArchitectureButton{
+	margin-top: 1em;
+	margin-right:1em;
+	background:#0d7e8a !important; 
+	margin-right:10px;
+	width: 8em;
+	
+	display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.adminSelectTable {
+	height: 200px;
+	display: block;
+	overflow-y: scroll;
+	width: 100%;
+}
+
+.adminSelectTable td {
+	padding: 7px;
+}
+
+.poolSelectTable {
+/* 	height: 50vh; */
+	height: calc(100vh - 105px - 55px - 350px);
+/* 	border: 2px solid brown; */
+	display: block;
+	overflow-y: auto;
+	width: 100%;
+}
+
+.usersTable{
+	height: 65vh;
+	display: block;
+	overflow-y: scroll;
+	width: 100%;
+/* 	height: 100%; */
+}
+
+.poolSelectTable td {
+	padding: 7px;
+}
+/* Define the hover highlight color for the table row */
+.pools_tbody_tr:hover {
+	background-color: #c6ecef;
+}
+.selected, .selectedConcurrentLicense, .selectedConcurrentLicenseUser{
+    background-color: #DCDCDC;
+}
+#home-btn a{
+padding:10px;
+padding-right:20px;
+color:black;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    margin-bottom: -10px;
+    background: #f8f9fa;
+    height: 60px !important;
+}
+html, body {
+	/*   height: 100%; */
+	/*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+	padding: 0 !important;
+	margin: 0 !important;
+	overflow: auto;
+	/*   background:blue; */
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	font-size: 14px;
+	background: #e3fdff;
+	/*   width: 100%; */
+}
+.selectedclass {
+	background-color: #0d7e8a;
+	color:#fff;
+}
+ul.ui-tabs-nav.ui-corner-all.ui-helper-reset.ui-helper-clearfix.ui-widget-header {
+    background-color: #e3fdff;
+    border: none;
+}
+ .ui-tabs .ui-tabs-nav li.ui-tabs-active{
+ background:#0d7e8a !important;
+ }
+ .ui-tabs-tab{
+  background-color: #e3fdff !important;
+}
+ .ui-widget-content{
+ background:#e3fdff;
+ }
+ .ui-tabs .ui-tabs-panel{
+ 	padding-left: 3px!important;
+ }
+
+#verticalTabs{
+	height: 100%;
+}
+
+#verticalTabs ul{
+	padding: .2em .1em .2em .2em;
+	width:100%!important;
+	float: left;
+	width: 12em;
+}
+
+#verticalTabs li{
+ 	border: 1px solid #c5c5c5; 
+/* 	padding: .2em .1em .2em .2em; */
+	padding: 0.5em 1em;
+	margin-right: 2px;
+	margin-bottom:3px;
+  line-height: 1.4;
+  cursor:pointer;
+/*   border: 1px solid transparent; */
+  border-radius: 4px 4px 4px 4px;
+}
+
+.ui-widget-content {
+	border: none !important;
+}
+
+/*NEW CSS*/
+
+.namedLicenceSelected , .usersList_userRegistration_selected , .usersList_changePassword_selected {
+    background-color: #DCDCDC;
+}
+
+.lang-icon{
+	color: #0d7e8a !important;
+	cursor: pointer;
+}
+
+#userManagementTabs-1{
+/*     border: 2px solid black !important; */
+    height: calc(100vh - 105px - 55px);
+}
+
+#licenseManagementTabs-1{
+/*     border: 2px solid purple !important; */
+    height: calc(100vh - 105px - 55px);
+    
+}
+
+#removeUserRegistraionButton{
+/* 	position: absolute; */
+/* 	bottom: 20px; */
+/* 	right: 13px; */
+}
+
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 10px #0d7e8a; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background:#13a9ba;
+	border-radius: 10px; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background:#13a9ba;
+}
+
+#user_tbody > tr > td:nth-child(even), #license_tbody > tr > td:nth-child(even){
+	text-align:right;
+}
+
+#user_tbody > tr > td:nth-child(odd), #license_tbody > tr > td:nth-child(odd){
+	text-align:left;
+}
+
+.disabled {
+	pointer-events: none;
+	opacity: 0.7;
+}
+
+.poolSelectTable tbody tr{
+	cursor: pointer;
+}
+
+
+@media only screen and (max-height: 700px) {
+/* 	#license_tbody{ */
+/* 		border: 2px solid black; */
+/* 	} */
+	
+	.pool_table_data {
+		height: calc(100vh - 156px - 55px - 270px);
+	}
+	
+	.poolSelectTable{
+		height: calc(100vh - 156px - 55px - 227px);
+	}
+}
+
+.ldapButton:hover {
+	cursor: pointer;
+	color: #0d7e8a;
+}
+
+/* Will be integrate to administrationArabic.css */
+.activeDirectoryListContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.activeDirectoryList {
+  flex-basis: 50%;
+  box-sizing: border-box;
+/*   padding: 10px; */
+}
+
+@media screen and (max-width: 600px) {
+  .activeDirectoryList {
+    flex-basis: 100%;
+  }
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left-col {
+  flex: 3;
+/*   border: 1px solid #ccc; */
+/*   padding: 10px; */
+}
+
+.left-col .textarea {
+  width: 100%;
+/*   height: 100%; */
+  min-height: 150px;
+  max-height:150px;
+  border: 1px solid #0d7e8a;
+  outline: none;
+}
+
+.right-col {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-top:7.5%;
+}
+
+.right-col button {
+/*   margin-bottom: 10px; */
+  margin: 0% 5% 5% 5%;
+}
+
+.checkboxes {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.changeButtonFontSize{
+	font-size: 12px !important;
+	background: #0d7e8a !important;
+}
+
+.activeDirectoryMainHeading{
+	font-size: large;
+}
+
+.formCss{
+	margin-top: 3%;
+}
+.selectedArchitecture{
+    display: inline-grid;
+    border-radius: 5%;
+    padding-left: 4%;
+	/* 	box-shadow: 2px -2px 0 rgb(195 217 219), 1px -1px rgba(195 217 219), inset 2px -2px 0 rgba(195 217 219); */
+	background: #dfe4e9;
+}
+.backupButton{
+	text-align: left !important;
+}
+.clearButton{
+	text-align: left !important;
+}
+.architectureDropdownButtonClear{
+	margin-top: 0em !important;
+	margin-bottom: 10%;
+}
+.restoreTabs{
+	margin-left: -2%;
+}
+#dialog-form-backupName{
+	height: auto !important;
+}
+.actionBtn{
+	display: flex;
+}
+
+
+/* Target the search input field */
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+  width: 28.5vw; /* Set the desired width for the search box */
+}
+
+.createBackupDialogFieldset div
+{
+	display: flex;
+}
+
+
+.createBackupDialogFieldset label {
+	flex: 0.25;
+	padding: 5px;
+	margin: 0px;
+}
+
+.createBackupDialogFieldset div > *:not(label):not(:is(input[type="checkbox"])){
+	flex: 1;
+	/* 	padding: 5px; */
+}
+
+.createBackupDialogFieldset input[type="checkbox"]{
+	width: 20px !important;
+	cursor: pointer;
+}
+
+/* Change the close icon of the dialog */
+.ui-dialog-titlebar-close {
+  background: none; /* Remove the default background */
+  border: none; /* Remove any border */
+  outline: none; /* Remove outline */
+  font-size: 0; /* Hide the default icon by setting font-size to 0 */
+  padding: 0; /* Remove padding */
+  width: 24px; /* Set your custom icon width */
+  height: 24px; /* Set your custom icon height */
+  
+  position: relative;
+}
+
+.ui-dialog-titlebar-close:before {
+    content: "";
+    font-size: 24px;
+    position: absolute;
+    left: 45%;
+    width: 2px;
+    height: 87%;
+    background-color: red;
+    transform: rotate(45deg);
+    z-index: 1;
+}
+
+.ui-dialog-titlebar-close:after {
+    content: "";
+    font-size: 24px;
+    position: absolute;
+    left: 45%;
+    width: 2px;
+    height: 87%;
+    background-color: red;
+    transform: rotate(-45deg);
+    z-index: 1;
+}
+
+#exampleArchitecture thead,
+#exampleDocument thead,
+#exampleProcess thead 
+{
+	background: #0d7e8a !important;
+    color: white;
+}
+
+.activeDirectoryUsersAndGroupsSelection{
+	overflow-y: auto;
+	cursor: pointer;
+}
+
+.highlightGroups {
+	min-width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    width: max-content;
+    background: #0d7e8a;
+    color: #ffffff;    
+  /* Add any other styling you want */
+}
+
+.highlightUsers {
+	min-width: 100%;
+    cursor: pointer;
+    display: inline-block;
+    width: max-content;
+    background: #0d7e8a;
+    color: #ffffff;    
+  /* Add any other styling you want */
+}
+
+.inActive{
+	display: inline-block;
+    min-width: 100%;	
+}
+/*  */
+/* #repositoryManagementTabs-3 > div > button{ */
+/* 	width: 100%; */
+/* 	margin-right:10px !important; */
+/* } */
